@@ -1,0 +1,4 @@
+# Citation Grabber - part of claude-skills-collection
+# For full installation, see: https://github.com/yf8578/citation-grabber
+
+requests>=2.25.0

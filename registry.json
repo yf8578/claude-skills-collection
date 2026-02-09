@@ -1,0 +1,57 @@
+{
+  "name": "Claude Skills Collection",
+  "version": "1.0.0",
+  "description": "Personal collection of Claude AI skills for various tasks",
+  "author": "yf8578",
+  "repository": "https://github.com/yf8578/claude-skills-collection",
+  "skills": [
+    {
+      "id": "citation-grabber",
+      "name": "Citation Grabber",
+      "version": "1.1.0",
+      "description": "Fetch scientific paper citations in BibTeX or NBIB format from PubMed and CrossRef",
+      "category": "research",
+      "tags": ["citation", "bibtex", "pubmed", "academic", "research"],
+      "path": "citation-grabber",
+      "main": "citation.py",
+      "skill_file": "citation-grabber/SKILL.md",
+      "repository": "https://github.com/yf8578/citation-grabber",
+      "requirements": ["requests>=2.25.0"],
+      "compatible_with": ["claude-code", "openclaw"],
+      "status": "stable",
+      "last_updated": "2026-02-09"
+    }
+  ],
+  "categories": {
+    "research": {
+      "name": "Research & Academic",
+      "description": "Tools for academic research, citations, and paper management",
+      "icon": "📚"
+    },
+    "development": {
+      "name": "Development Tools",
+      "description": "Programming, code analysis, and development utilities",
+      "icon": "💻"
+    },
+    "productivity": {
+      "name": "Productivity",
+      "description": "General productivity and automation tools",
+      "icon": "⚡"
+    },
+    "data": {
+      "name": "Data Analysis",
+      "description": "Data processing, analysis, and visualization",
+      "icon": "📊"
+    },
+    "media": {
+      "name": "Media & Content",
+      "description": "Image, video, audio, and document processing",
+      "icon": "🎨"
+    }
+  },
+  "metadata": {
+    "created": "2026-02-09",
+    "total_skills": 1,
+    "license": "MIT"
+  }
+}
