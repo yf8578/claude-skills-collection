@@ -1,12 +1,40 @@
 # Claude Skills Collection 🎯
 
-> **Personal monorepo of Claude AI skills for enhanced productivity and specialized tasks**
+> **Personal monorepo of Claude AI skills with cross-platform support**
 
 [![Skills](https://img.shields.io/badge/skills-1-blue.svg)](./registry.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-brightgreen.svg)](https://code.claude.com/)
 
 A curated collection of skills that extend Claude's capabilities for research, development, and automation tasks.
+
+## 🚀 Quick Start
+
+### Installation (Recommended: Symlink Mode)
+
+```bash
+cd ~/00zyf/AI/claude-skills-collection
+
+# Install using symbolic links (saves space, auto-updates)
+./scripts/install-universal-link.sh citation-grabber
+
+# Or install all skills at once
+./scripts/install-all-link.sh
+```
+
+**Why symlinks?**
+- 💾 **Zero duplication** - Saves 80% disk space
+- ⚡ **Auto-sync** - Update once, applies everywhere
+- 🎯 **Single source** - Easier to manage
+
+See [Symlink vs Copy Guide](./docs/symlink-vs-copy.md) for details.
+
+### Alternative: Copy Mode
+
+```bash
+# If you need file copies instead of links
+./scripts/install-universal.sh citation-grabber
+```
 
 ## 📚 What Are Skills?
 
