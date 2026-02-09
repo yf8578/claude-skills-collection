@@ -294,7 +294,7 @@ class SkillsStore(App):
                 classes="stats-bar"
             )
 
-            with TabbedContent(initial="installed"):
+            with TabbedContent(initial="tab-installed"):
                 with TabPane("Installed (0)", id="tab-installed"):
                     yield Input(
                         placeholder="Search installed skills (name, category, tags)...",
