@@ -2,7 +2,7 @@
 
 > **Personal monorepo of Claude AI skills with cross-platform support**
 
-[![Skills](https://img.shields.io/badge/skills-1-blue.svg)](./registry.json)
+[![Skills](https://img.shields.io/badge/skills-7-blue.svg)](./registry.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-brightgreen.svg)](https://code.claude.com/)
 
@@ -52,11 +52,26 @@ Skills are specialized tools that Claude can use to perform specific tasks. Each
 |-------|-------------|---------|--------|
 | [**citation-grabber**](./citation-grabber) | Fetch scientific paper citations from PubMed and CrossRef | 1.1.0 | ✅ Stable |
 
-### Coming Soon
+### Productivity ⚡
 
-- 🔄 **pdf-analyzer** - Extract and analyze PDF documents
-- 🔍 **code-reviewer** - Automated code review and suggestions
-- 📊 **data-visualizer** - Generate charts and visualizations from data
+| Skill | Description | Version | Status | Source |
+|-------|-------------|---------|--------|--------|
+| [**pdf**](./pdf) | PDF manipulation: read, extract, merge, split, rotate, watermark, encrypt, OCR | 1.0.0 | ✅ Stable | Anthropic |
+| [**docx**](./docx) | Create, read, edit Word documents with formatting, tables, images, tracked changes | 1.0.0 | ✅ Stable | Anthropic |
+| [**pptx**](./pptx) | Create, read, edit PowerPoint presentations and slide decks | 1.0.0 | ✅ Stable | Anthropic |
+
+### Data Analysis 📊
+
+| Skill | Description | Version | Status | Source |
+|-------|-------------|---------|--------|--------|
+| [**xlsx**](./xlsx) | Excel spreadsheet manipulation: formulas, charts, data cleaning, format conversion | 1.0.0 | ✅ Stable | Anthropic |
+
+### Development Tools 💻
+
+| Skill | Description | Version | Status | Source |
+|-------|-------------|---------|--------|--------|
+| [**mcp-builder**](./mcp-builder) | Guide for creating high-quality MCP servers to integrate external APIs | 1.0.0 | ✅ Stable | Anthropic |
+| [**skill-creator**](./skill-creator) | Guide for creating effective skills that extend Claude's capabilities | 1.0.0 | ✅ Stable | Anthropic |
 
 ## 🚀 Quick Start
 
@@ -268,9 +283,9 @@ See [CONTRIBUTING.md](./docs/CONTRIBUTING.md) for detailed guidelines.
 
 ## 📊 Statistics
 
-- **Total Skills:** 1
-- **Categories:** 5
-- **Stable Skills:** 1
+- **Total Skills:** 7 (1 custom + 6 Anthropic official)
+- **Categories:** 4 (Research, Productivity, Data, Development)
+- **Stable Skills:** 7
 - **In Development:** 0
 
 ## 🔗 Related Resources
