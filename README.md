@@ -10,6 +10,24 @@ A curated collection of skills that extend Claude's capabilities for research, d
 
 ## 🚀 Quick Start
 
+### 🏪 Skills Store (New!) - Interactive Browser
+
+Browse and manage skills with a beautiful terminal UI:
+
+```bash
+cd ~/00zyf/AI/claude-skills-collection
+./scripts/store.sh
+```
+
+**Features:**
+- 📚 Browse all installed skills
+- 🔍 Search and filter
+- 📊 View detailed information
+- ⌨️ Keyboard shortcuts (`/` search, `i` install, `?` help)
+- 🎨 Beautiful interface
+
+[Learn more about Skills Store →](./docs/skills-store.md)
+
 ### Installation (Recommended: Symlink Mode)
 
 ```bash
