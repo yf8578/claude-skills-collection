@@ -1,0 +1,4 @@
+interface:
+  display_name: "BGI Software Writing"
+  short_description: "按软著规范生成软件设计说明书并保证图文与格式完整性"
+  default_prompt: "Use $bgi-software-writing to draft a full Chinese software design specification with dynamic skeleton selection, numbered figures/tables, and Markdown+DOCX outputs."
